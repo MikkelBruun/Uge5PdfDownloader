@@ -10,7 +10,7 @@ class Config:
     logPerformance = True
     verbose = False
     threads = None
-    nrows = 20  # TEMP
+    nrows = None
     updateMode = False
 
     def prettyprint():
