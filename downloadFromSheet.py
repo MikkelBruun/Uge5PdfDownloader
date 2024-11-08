@@ -42,7 +42,8 @@ def main():
         if Config.logErrors:
             logger.writeErrs()
 
-
+### Jeg læste din feedback vedrørende brugen af 'argparse' 5minutter EFTER at ha skrevet denne funktion 😅
+### Næste uge!
 def parseArgs():
     for arg in sys.argv[1:]:
         if arg[0] == "-":  # Starts with "-"? is then treatet as option
